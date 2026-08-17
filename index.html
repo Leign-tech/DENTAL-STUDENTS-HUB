@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dental Student Hub MW</title>
+<link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+<header>
+  <div class="header-top">
+  <h1>🦷 Dental Student Hub MW</h1>
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </div>
+  <nav id="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+    </ul>
+  </nav>
+    
+  <p>MCQs + Practical Questions for Dental Surgery & Therapy</p>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search: oral pathology, anatomy, caries...">
+  </div>
+</header>
+
+<div class="container">
+  <div class="filters">
+    <button class="filter-btn active" data-module="all">All</button>
+    <button class="filter-btn" data-module="Oral Anatomy">Oral Anatomy</button>
+    <button class="filter-btn" data-module="Oral Pathology">Oral Pathology</button>
+    <button class="filter-btn" data-module="Dental Surgery">Dental Surgery</button>
+    <button class="filter-btn" data-module="Conservative">Conservative</button>
+  </div>
+  
+  <div class="score" id="score">Score: 0 / 0</div>
+  
+  <div id="quizContainer"></div>
+</div>
+
+<script src="script.js">
+  
+</script>
+
+</body>
+</html>
