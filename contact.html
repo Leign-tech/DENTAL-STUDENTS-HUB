@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  
+<title>Dental Student Hub MW</title>
+<link rel="stylesheet" href="style.css">
+   <style>
+
+/* ========== Glass Hero Section ========== */
+.about-hero {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+  background: hwb(161 10% 38%);
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 40px 25px;
+  max-width: 700px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.glass-card h1 {
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 15px;
+  font-family: serif;
+}
+.glass-card p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.8;
+}
+/*WHATSAPP BUTTON*/
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 28px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+.whatsapp-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+}
+     
+/* Content Section */
+.about-content {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+  color: #333;
+}
+.about-content h2 {
+  color: #0077b6;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+.about-content p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  background: #1a9e74ff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+footer a { color: white; text-decoration: underline; }
+
+/* ========== Tablet + Desktop ========== */
+@media (min-width: 768px) {
+  .menu-toggle { display: block; }
+  .nav-links {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    gap: 25px;
+    width: auto;
+    background: transparent;
+  }
+  .nav-links li { border: none; }
+  .nav-links a { padding: 0; }
+  .nav-links a:hover { background: transparent; text-decoration: underline; }
+
+  .glass-card { padding: 50px 40px; }
+  .glass-card h1 { font-size: 2.8rem; }
+}
+  </style>
+  </head>
+  
+<body>
+
+<header>
+  <div class="header-top">
+  <h1>Dental Student Hub MW</h1>
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </div>
+  <nav id="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+    </ul>
+  </nav>
+    
+
+</header>
+    
+    <main>
+      <!-- GLASS HERO -->
+      <section class="about-hero">
+        <div class="glass-card">
+          <h1>Contact -Dental Student Hub</h1>
+          <p>+265888105808</p>
+              <a href="https://wa.me/265888105808" target="_blank" class="whatsapp-btn">
+      Contact,WhatsApp
+    </a>
+        </div>
+      </section>
+
+      <!-- CONTENT -->
+      <section class="about-content">
+        <h2></h2>
+        <p>
+</p>
+
+        <h2></h2>
+        <p>
+</p>
+
+        <h2></h2>
+        <p>
+</p>
+      </section>
+    </main>
+<script src="script.js"></script>
+    <footer>
+      <p>© 2026 Dental Student Hub. All rights reserved.</p>
+      <p><a href="privacy.html">Privacy-Policy</a> | <a href="contact.html">Contact Us</a></p>
+    </footer>
+
+    
+  </body>
+</html>
